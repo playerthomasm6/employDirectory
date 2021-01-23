@@ -1,0 +1,14 @@
+.boxstyle {
+    padding: 2%;
+    border: solid;
+    border-color: black;
+
+}
+
+.boxstyle:hover {
+    background-color: yellow;
+}
+
+.remove {
+    cursor: pointer;
+}
