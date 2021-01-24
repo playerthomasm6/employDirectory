@@ -15,7 +15,7 @@ function Test2 (props) {
 
               <li>Name: {props.firstname} {props.lastname}</li>
               <li>Gender: {props.gender}</li>
-              <li>Occupation: Sexworker</li>
+              <li>Occupation: {props.occupation}</li>
               <li>ID: {props.id}</li>
             </ul>
             <span onClick={() => props.removeEmployee(props.id)} className="remove">
